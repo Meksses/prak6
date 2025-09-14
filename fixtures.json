@@ -1,0 +1,160 @@
+[
+  {
+    "model": "store.category",
+    "pk": 1,
+    "fields": {
+      "name": "Ноутбуки",
+      "description": "Сучасні ноутбуки для роботи і навчання",
+      "slug": "laptops"
+    }
+  },
+  {
+    "model": "store.category",
+    "pk": 2,
+    "fields": {
+      "name": "Смартфони",
+      "description": "Смартфони різних брендів",
+      "slug": "smartphones"
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "Lenovo IdeaPad 3",
+      "description": "Бюджетний ноутбук для навчання",
+      "price": "15000.00",
+      "stock": 10,
+      "created_at": "2025-09-11T11:37:47.044099Z",
+      "updated_at": "2025-09-11T11:37:47.044099Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "Asus VivoBook 15",
+      "description": "Тонкий та легкий ноутбук",
+      "price": "22000.00",
+      "stock": 7,
+      "created_at": "2025-09-11T11:37:47.044099Z",
+      "updated_at": "2025-09-11T11:37:47.044099Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "name": "HP Pavilion 14",
+      "description": "Ноутбук для роботи та ігор",
+      "price": "27000.00",
+      "stock": 5,
+      "created_at": "2025-09-11T11:37:47.044099Z",
+      "updated_at": "2025-09-11T11:37:47.044099Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 4,
+    "fields": {
+      "category": 1,
+      "name": "Dell Inspiron 3501",
+      "description": "Надійний офісний ноутбук",
+      "price": "18000.00",
+      "stock": 8,
+      "created_at": "2025-09-11T11:37:47.044099Z",
+      "updated_at": "2025-09-11T11:37:47.044099Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+      "category": 1,
+      "name": "Apple MacBook Air M1",
+      "description": "Легендарний ультрабук",
+      "price": "35000.00",
+      "stock": 4,
+      "created_at": "2025-09-11T11:37:47.044099Z",
+      "updated_at": "2025-09-11T11:37:47.044099Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 6,
+    "fields": {
+      "category": 2,
+      "name": "iPhone 13",
+      "description": "Смартфон Apple з 128GB пам’яті",
+      "price": "32000.00",
+      "stock": 6,
+      "created_at": "2025-09-11T11:37:47.044099Z",
+      "updated_at": "2025-09-11T11:37:47.044099Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 7,
+    "fields": {
+      "category": 2,
+      "name": "Samsung Galaxy S21",
+      "description": "Флагман Samsung",
+      "price": "28000.00",
+      "stock": 5,
+      "created_at": "2025-09-11T11:37:47.044099Z",
+      "updated_at": "2025-09-11T11:37:47.044099Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 8,
+    "fields": {
+      "category": 2,
+      "name": "Xiaomi Redmi Note 11",
+      "description": "Бюджетний смартфон",
+      "price": "9000.00",
+      "stock": 15,
+      "created_at": "2025-09-11T11:37:47.044099Z",
+      "updated_at": "2025-09-11T11:37:47.044099Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 9,
+    "fields": {
+      "category": 2,
+      "name": "OnePlus Nord CE 2",
+      "description": "Середній клас з AMOLED",
+      "price": "12000.00",
+      "stock": 10,
+      "created_at": "2025-09-11T11:37:47.044099Z",
+      "updated_at": "2025-09-11T11:37:47.044099Z",
+      "is_active": true
+    }
+  },
+  {
+    "model": "store.product",
+    "pk": 10,
+    "fields": {
+      "category": 2,
+      "name": "Google Pixel 6",
+      "description": "Чистий Android смартфон",
+      "price": "25000.00",
+      "stock": 3,
+      "created_at": "2025-09-11T11:37:47.044099Z",
+      "updated_at": "2025-09-11T11:37:47.044099Z",
+      "is_active": true
+    }
+  }
+]
