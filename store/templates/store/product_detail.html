@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block content %}<h2>{{ product.name }}</h2><p>{{ product.description }}</p><p>Ціна: {{ product.price }}</p><a href='/order/{{ product.id }}/' class='btn btn-success'>Купити</a>{% endblock %}
